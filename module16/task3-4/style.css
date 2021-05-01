@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.report {
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 12px 12px;
+    outline: none;
+    border: 1px solid #b2b2b6;
+    border-radius: 3px;
+}
+
+.btn {
+    width: 200px;
+    padding: 11px 8px 13px;
+    cursor: pointer;
+    outline: none;
+    background: #656567;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #656567;
+    border-radius: 3px;
+}
+
+.btn:hover { background: #5e5e5f; }
+
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+.table--bold { font-weight: bold; }
+
+.table td {
+    border: 1px solid #b2b2b6;
+    padding: 15px 0;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #656567;
+}
+
+.link:hover { text-decoration: underline; }
